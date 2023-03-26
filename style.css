@@ -28,7 +28,6 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(62deg, var(--lt-blue) 0%, var(--lt-pink) 100%);
-    /* background: linear-gradient(231deg, #160628 0%, #341c4f 50%, #58077d 100%); */
 }
 
 .container {
@@ -74,7 +73,7 @@ h1 {
     font-size: 1.5rem;
     line-height: 30px;
     color: var(--lt-pink);
-    opacity: 0.65;
+    opacity: 0.8;
     text-transform: uppercase;
     transform: translateY(-50%);
 }
@@ -102,14 +101,12 @@ h1 {
     left: -25px;
     padding: 5px 10px;
     border-radius: 1rem;
-    opacity: 0;
     transform: scale(0);
     transform-origin: bottom;
     transition: all 250ms ease-in-out;
 }
 
 .tooltip.active {
-    opacity: 1;
     transform: scale(1);
 }
 
