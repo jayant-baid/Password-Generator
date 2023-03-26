@@ -1,6 +1,6 @@
 let password = "";
 let passwordLength = 10;
-let checkCount = 0;
+let checkCount = 1;
 
 const inputSlider = document.querySelector("[data-lengthSlider]");
 const lengthDisplay = document.querySelector("[data-lengthNumber]");
